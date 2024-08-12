@@ -3,7 +3,7 @@ Ecwid.OnAPILoaded.add(function() {
     if (page.type == "PRODUCT") {
        console.log(
         `
-       Page loaded!
+       Congretulation Page loaded!
        Ecwid store ID is: ${Ecwid.getOwnerId()}
        Product ID is: ${page.productId}
         `
